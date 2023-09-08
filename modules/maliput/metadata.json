@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/maliput/maliput",
+    "maintainers": [
+        {
+            "email": "d.stonier@gmail.com",
+            "github": "stonier",
+            "name": "Daniel Stonier"
+        }
+    ],
+    "repository": [
+        "github:maliput/maliput"
+    ],
+    "versions": [
+        "1.1.1"
+    ],
+    "yanked_versions": {}
+}

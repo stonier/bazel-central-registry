@@ -1,0 +1,20 @@
+matrix:
+  platform:
+  - debian10
+  - ubuntu2004
+  - macos
+  - macos_arm64
+  - windows
+tasks:
+  verify_targets:
+    name: Verify build targets
+    platform: ${{ platform }}
+    build_targets:
+    - '@maliput//:common'
+    - '@maliput//:math'
+    - '@maliput//:base'
+    - '@maliput//:geometry_base'
+    - '@maliput//:api'
+    - '@maliput//:plugin'
+    - '@maliput//:routing'
+    - '@maliput//:utility'
