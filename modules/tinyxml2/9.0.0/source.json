@@ -1,0 +1,10 @@
+{
+    "url": "https://github.com/stonier/tinyxml2/releases/download/9.0.0/tinyxml2-9.0.0.tar.gz",
+    "integrity": "sha256-zC8UF8MIsfasxU+I63B3Ggv2X3YoLOXEDlTP5SlScCw=",
+    "strip_prefix": "tinyxml2-9.0.0",
+    "patches": {
+         "module_dot_bazel.patch": "sha256-0Jov8J3PJ6+83AqmYAI8VBayPsH5LWIHLOA61wJWhQc=",
+         "build_bazel.patch": "sha256-gc0LOFLzOmjoHaP004AWrqMjhmKY/OPwcvs36LJZOMY="
+    },
+    "patch_strip": 1
+}
